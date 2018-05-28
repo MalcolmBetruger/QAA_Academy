@@ -4,6 +4,9 @@ package home_lr1;
  * Created by admin on 5/25/2018.
  */
 public class Candy_Purchase {
+
+
+
     public static void main(String[] args){
         //Scanner scan = new Scanner(System.in);
         double coockiePrice = 15;
@@ -14,5 +17,6 @@ public class Candy_Purchase {
 
         System.out.printf("Сумма покупки 300г печенья и 400г конфет равно %f денег", summ);
         System.out.printf("%nА сумма покупки 3-х покупок из 2кг печенья и 1.8кг конфет равно %f денег", summ2);
+        System.out.println();
     }
 }
