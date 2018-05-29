@@ -13,6 +13,7 @@ public class HomeWork_1_3 {
         int x2 = 3;
         int y2 = 3;
         int z2 = 3;
+
         vector(x1, y1, z1, x2, y2, z2);
 
     }

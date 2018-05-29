@@ -8,13 +8,9 @@ public class HomeWork_1_1 {
 
 
         double x = 343434;
-
-
         double y = 444;
         double z = 45657567;
         double n = 5555.55;
-
-
 
         System.out.printf("Результат первого уравнения (считаем в long): %d", longCalculation(x,y,z,n));
         System.out.printf("%nРезультат второго уравнения (считаем в int): %d", intCalculation(x,y,z,n));
