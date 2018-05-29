@@ -8,6 +8,8 @@ public class HomeWork_1_1 {
 
 
         double x = 343434;
+
+
         double y = 444;
         double z = 45657567;
         double n = 5555.55;
