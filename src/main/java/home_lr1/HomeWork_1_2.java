@@ -6,8 +6,8 @@ package home_lr1;
 public class HomeWork_1_2 {
     public static void main(String[] args) {
 
-        int x = 45685;
-        outputByChar(x);
+        int xd = 45685;
+        outputByChar(xd);
     }
 
     public static void outputByChar(int x) {
