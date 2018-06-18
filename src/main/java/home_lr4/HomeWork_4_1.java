@@ -93,7 +93,7 @@ public class HomeWork_4_1 {
             if (arr[i].type() == ttype) {
                 // Нашли нужный
                 System.out.println("Индекс: " + Integer.toString(i));
-                System.out.println("Треугольник " + arr[i].getInfo());
+                System.out.println("Треугольник: " + arr[i].getInfo());
                 System.out.println(String.format("Периметр: %f",arr[i].perimeter()));
                 System.out.println(String.format("Площадь: %f",arr[i].square()));
                 break;
