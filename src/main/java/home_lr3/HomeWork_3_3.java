@@ -4,7 +4,7 @@ package home_lr3;
  * Created by admin on 6/18/2018.
  */
 
-// !!!!!!!! НУЖНО ДОРАБОТАТЬ!!! ВЫВОДИТ ХЕРНЮ!!!!!
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -24,11 +24,13 @@ public class HomeWork_3_3  {
             arr[i]=rnd.nextInt(100);
 
         // Печать массива
+        System.out.println("Исходный массив:");
         for (int i = 0; i < size; i++)
             System.out.print(Integer.toString(arr[i]) + " ");
         System.out.println("");
 
         // Вывод тех элементов, у которых кратность 3
+        System.out.println("Элементы массива, кратность которых = 3");
         for (int i = 0; i < size; i++)
             if (arr[i] % 3 == 0)
                 System.out.print(Integer.toString(arr[i]) + " ");
